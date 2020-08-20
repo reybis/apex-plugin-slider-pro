@@ -1,0 +1,34 @@
+{
+  "name" : "APEX Slider Pro",
+  "version" : "1.0",
+  "description" : "APEX Slider Pro is a powerful slider plugin based on the modular, responsive and touch-enabled jQuery slider. It provides elegant and  professionally looking sliders.",
+  "keywords" : ["slider", "slider pro", "oracle", "apex", "plugin"],
+  "homepage" : "https://github.com/reybis/apex-plugin-slider-pro",
+  "bugs" : {
+    "url" : "https://github.com/reybis/apex-plugin-slider-pro/issues",
+    "email" : "reybis@me.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "author" : {
+    "name" : "Reybis Ceballos",
+    "email" : "reybis@me.com",
+    "url" : "https://reybis.com/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/reybis/apex-plugin-slider-pro.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
+    "apex" : {
+      "versions" : ["5.0.0", "18.1.0", "18.2.0", "19.1.0"],
+      "plugin" : {
+        "internalName" : "COM.REYBIS.SLIDERPRO",
+        "type" : "item",
+        "demo" : "https://apex.reybis.com/ords/f?p=APEXPLUGIN",
+        "previewImage" : "https://raw.githubusercontent.com/reybis/apex-plugin-slider-pro/master/preview.gif"
+      }
+    }
+  }
+}
